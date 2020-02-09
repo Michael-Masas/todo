@@ -5,4 +5,5 @@ sudo helm repo update;
 helm plugin install https://github.com/chartmuseum/helm-push;
 sudo helm package todo;
 sudo helm install chartmuseum stable/chartmuseum;
+sudo helm delete todo
 sudo helm push *todo* chartmuseum;
