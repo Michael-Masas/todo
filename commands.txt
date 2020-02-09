@@ -1,0 +1,1 @@
+use the shell file to install the repo to your own chartmuseum repo (minikube simple setup)
